@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E61FC1E2AAA892700242805 /* ResponseObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E61FC1D2AAA892700242805 /* ResponseObject.swift */; };
+		7E61FC202AAA8F1100242805 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E61FC1F2AAA8F1100242805 /* NotificationManager.swift */; };
+		7EA2AF482AB349CB00DB7A6A /* CookbookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2AF472AB349CB00DB7A6A /* CookbookTableViewController.swift */; };
+		7EA2AF4A2AB34C1500DB7A6A /* UserRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA2AF492AB34C1500DB7A6A /* UserRecipes.swift */; };
+		7EAC01212AAF66E400C50908 /* RecipeStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC01202AAF66E400C50908 /* RecipeStorageManager.swift */; };
+		7EAC01232AAF682C00C50908 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC01222AAF682C00C50908 /* PersistenceController.swift */; };
+		7EAC01262AAF688400C50908 /* CoreDataStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC01242AAF688400C50908 /* CoreDataStore.xcdatamodeld */; };
+		7EAC01282AAF695A00C50908 /* CoreDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC01272AAF695A00C50908 /* CoreDataModels.swift */; };
+		86176FD22AB8A4CD00C775DC /* CustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86176FD12AB8A4CD00C775DC /* CustomizeViewController.swift */; };
+		86235B092AAA110B00810A89 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 86235B082AAA110B00810A89 /* Alamofire */; };
+		86235B0B2AAA1B7E00810A89 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86235B0A2AAA1B7E00810A89 /* OpenAIService.swift */; };
+		86235B0D2AAA1B9F00810A89 /* NetworkingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86235B0C2AAA1B9F00810A89 /* NetworkingObjects.swift */; };
+		867569DA2AA8E16200ABDD76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867569D92AA8E16200ABDD76 /* AppDelegate.swift */; };
+		867569DC2AA8E16200ABDD76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867569DB2AA8E16200ABDD76 /* SceneDelegate.swift */; };
+		867569DE2AA8E16200ABDD76 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867569DD2AA8E16200ABDD76 /* HomeViewController.swift */; };
+		867569E12AA8E16200ABDD76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867569DF2AA8E16200ABDD76 /* Main.storyboard */; };
+		867569E32AA8E16400ABDD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867569E22AA8E16400ABDD76 /* Assets.xcassets */; };
+		867569E62AA8E16400ABDD76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867569E42AA8E16400ABDD76 /* LaunchScreen.storyboard */; };
+		867569EE2AA8E1D500ABDD76 /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867569ED2AA8E1D500ABDD76 /* StepsViewController.swift */; };
+		86D179E02AB0BB7E00EC4136 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D179DF2AB0BB7E00EC4136 /* FormViewController.swift */; };
+		86E9F4BC2AB34A9D00544320 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E9F4BB2AB34A9D00544320 /* SettingsViewController.swift */; };
+		D22CEB6C2ABC88FC0043CA14 /* AnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CEB6B2ABC88FC0043CA14 /* AnimationController.swift */; };
+		D22CEB6E2AC32D890043CA14 /* InternetCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CEB6D2AC32D890043CA14 /* InternetCheck.swift */; };
+		D22CEB702AC711E70043CA14 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22CEB6F2AC711E70043CA14 /* CustomTextView.swift */; };
+		D2D9CFEF2AB2039900B9C93C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9CFEE2AB2039900B9C93C /* Constants.swift */; };
+		D2D9CFF32AB2059500B9C93C /* SpeechSynthesizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9CFF22AB2059500B9C93C /* SpeechSynthesizer.swift */; };
+		D2D9CFF52AB2059C00B9C93C /* Voice Recognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D9CFF42AB2059C00B9C93C /* Voice Recognition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E61FC1D2AAA892700242805 /* ResponseObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseObject.swift; sourceTree = "<group>"; };
+		7E61FC1F2AAA8F1100242805 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		7EA2AF472AB349CB00DB7A6A /* CookbookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookTableViewController.swift; sourceTree = "<group>"; };
+		7EA2AF492AB34C1500DB7A6A /* UserRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRecipes.swift; sourceTree = "<group>"; };
+		7EAC01202AAF66E400C50908 /* RecipeStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStorageManager.swift; sourceTree = "<group>"; };
+		7EAC01222AAF682C00C50908 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		7EAC01252AAF688400C50908 /* CoreDataStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataStore.xcdatamodel; sourceTree = "<group>"; };
+		7EAC01272AAF695A00C50908 /* CoreDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModels.swift; sourceTree = "<group>"; };
+		86176FD12AB8A4CD00C775DC /* CustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeViewController.swift; sourceTree = "<group>"; };
+		86235B0A2AAA1B7E00810A89 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		86235B0C2AAA1B9F00810A89 /* NetworkingObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingObjects.swift; sourceTree = "<group>"; };
+		867569D62AA8E16200ABDD76 /* AI Cooking Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Cooking Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		867569D92AA8E16200ABDD76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		867569DB2AA8E16200ABDD76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		867569DD2AA8E16200ABDD76 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		867569E02AA8E16200ABDD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		867569E22AA8E16400ABDD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		867569E52AA8E16400ABDD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		867569E72AA8E16400ABDD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		867569ED2AA8E1D500ABDD76 /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		86D179DF2AB0BB7E00EC4136 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		86E9F4BB2AB34A9D00544320 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D22CEB6B2ABC88FC0043CA14 /* AnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationController.swift; sourceTree = "<group>"; };
+		D22CEB6D2AC32D890043CA14 /* InternetCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetCheck.swift; sourceTree = "<group>"; };
+		D22CEB6F2AC711E70043CA14 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		D2D9CFEE2AB2039900B9C93C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D2D9CFF22AB2059500B9C93C /* SpeechSynthesizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizer.swift; sourceTree = "<group>"; };
+		D2D9CFF42AB2059C00B9C93C /* Voice Recognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Voice Recognition.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		867569D32AA8E16200ABDD76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86235B092AAA110B00810A89 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		867569CD2AA8E16200ABDD76 = {
+			isa = PBXGroup;
+			children = (
+				867569D82AA8E16200ABDD76 /* AI Cooking Assistant */,
+				867569D72AA8E16200ABDD76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		867569D72AA8E16200ABDD76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				867569D62AA8E16200ABDD76 /* AI Cooking Assistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		867569D82AA8E16200ABDD76 /* AI Cooking Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				867569D92AA8E16200ABDD76 /* AppDelegate.swift */,
+				867569DB2AA8E16200ABDD76 /* SceneDelegate.swift */,
+				86AA61B72AAB73110075E614 /* AI Wrangler Files */,
+				86176FD12AB8A4CD00C775DC /* CustomizeViewController.swift */,
+				86D179DF2AB0BB7E00EC4136 /* FormViewController.swift */,
+				86E9F4BB2AB34A9D00544320 /* SettingsViewController.swift */,
+				867569ED2AA8E1D500ABDD76 /* StepsViewController.swift */,
+				D22CEB6B2ABC88FC0043CA14 /* AnimationController.swift */,
+				867569DD2AA8E16200ABDD76 /* HomeViewController.swift */,
+				D2D9CFF22AB2059500B9C93C /* SpeechSynthesizer.swift */,
+				D2D9CFF42AB2059C00B9C93C /* Voice Recognition.swift */,
+				867569DF2AA8E16200ABDD76 /* Main.storyboard */,
+				D22CEB6F2AC711E70043CA14 /* CustomTextView.swift */,
+				D22CEB6D2AC32D890043CA14 /* InternetCheck.swift */,
+				7EA2AF472AB349CB00DB7A6A /* CookbookTableViewController.swift */,
+				867569E22AA8E16400ABDD76 /* Assets.xcassets */,
+				867569E42AA8E16400ABDD76 /* LaunchScreen.storyboard */,
+				867569E72AA8E16400ABDD76 /* Info.plist */,
+				7EAC01242AAF688400C50908 /* CoreDataStore.xcdatamodeld */,
+			);
+			path = "AI Cooking Assistant";
+			sourceTree = "<group>";
+		};
+		86AA61B72AAB73110075E614 /* AI Wrangler Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EAC01272AAF695A00C50908 /* CoreDataModels.swift */,
+				7EAC01222AAF682C00C50908 /* PersistenceController.swift */,
+				7EAC01202AAF66E400C50908 /* RecipeStorageManager.swift */,
+				7E61FC1F2AAA8F1100242805 /* NotificationManager.swift */,
+				D2D9CFEE2AB2039900B9C93C /* Constants.swift */,
+				86235B0A2AAA1B7E00810A89 /* OpenAIService.swift */,
+				86235B0C2AAA1B9F00810A89 /* NetworkingObjects.swift */,
+				7E61FC1D2AAA892700242805 /* ResponseObject.swift */,
+				7EA2AF492AB34C1500DB7A6A /* UserRecipes.swift */,
+			);
+			path = "AI Wrangler Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		867569D52AA8E16200ABDD76 /* AI Cooking Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867569EA2AA8E16400ABDD76 /* Build configuration list for PBXNativeTarget "AI Cooking Assistant" */;
+			buildPhases = (
+				867569D22AA8E16200ABDD76 /* Sources */,
+				867569D32AA8E16200ABDD76 /* Frameworks */,
+				867569D42AA8E16200ABDD76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI Cooking Assistant";
+			packageProductDependencies = (
+				86235B082AAA110B00810A89 /* Alamofire */,
+			);
+			productName = "AI Cooking Assistant";
+			productReference = 867569D62AA8E16200ABDD76 /* AI Cooking Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		867569CE2AA8E16200ABDD76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					867569D52AA8E16200ABDD76 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 867569D12AA8E16200ABDD76 /* Build configuration list for PBXProject "AI Cooking Assistant" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 867569CD2AA8E16200ABDD76;
+			packageReferences = (
+				86235B072AAA110B00810A89 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 867569D72AA8E16200ABDD76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				867569D52AA8E16200ABDD76 /* AI Cooking Assistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		867569D42AA8E16200ABDD76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867569E62AA8E16400ABDD76 /* LaunchScreen.storyboard in Resources */,
+				867569E32AA8E16400ABDD76 /* Assets.xcassets in Resources */,
+				867569E12AA8E16200ABDD76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		867569D22AA8E16200ABDD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E61FC1E2AAA892700242805 /* ResponseObject.swift in Sources */,
+				7EAC01212AAF66E400C50908 /* RecipeStorageManager.swift in Sources */,
+				86D179E02AB0BB7E00EC4136 /* FormViewController.swift in Sources */,
+				7EAC01262AAF688400C50908 /* CoreDataStore.xcdatamodeld in Sources */,
+				7EA2AF482AB349CB00DB7A6A /* CookbookTableViewController.swift in Sources */,
+				867569DE2AA8E16200ABDD76 /* HomeViewController.swift in Sources */,
+				867569DA2AA8E16200ABDD76 /* AppDelegate.swift in Sources */,
+				7EAC01232AAF682C00C50908 /* PersistenceController.swift in Sources */,
+				86235B0D2AAA1B9F00810A89 /* NetworkingObjects.swift in Sources */,
+				86235B0B2AAA1B7E00810A89 /* OpenAIService.swift in Sources */,
+				D2D9CFF52AB2059C00B9C93C /* Voice Recognition.swift in Sources */,
+				867569EE2AA8E1D500ABDD76 /* StepsViewController.swift in Sources */,
+				D22CEB6E2AC32D890043CA14 /* InternetCheck.swift in Sources */,
+				7E61FC202AAA8F1100242805 /* NotificationManager.swift in Sources */,
+				86E9F4BC2AB34A9D00544320 /* SettingsViewController.swift in Sources */,
+				D2D9CFEF2AB2039900B9C93C /* Constants.swift in Sources */,
+				7EAC01282AAF695A00C50908 /* CoreDataModels.swift in Sources */,
+				867569DC2AA8E16200ABDD76 /* SceneDelegate.swift in Sources */,
+				7EA2AF4A2AB34C1500DB7A6A /* UserRecipes.swift in Sources */,
+				D22CEB6C2ABC88FC0043CA14 /* AnimationController.swift in Sources */,
+				D22CEB702AC711E70043CA14 /* CustomTextView.swift in Sources */,
+				86176FD22AB8A4CD00C775DC /* CustomizeViewController.swift in Sources */,
+				D2D9CFF32AB2059500B9C93C /* SpeechSynthesizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		867569DF2AA8E16200ABDD76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				867569E02AA8E16200ABDD76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		867569E42AA8E16400ABDD76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				867569E52AA8E16400ABDD76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		867569E82AA8E16400ABDD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		867569E92AA8E16400ABDD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		867569EB2AA8E16400ABDD76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P37BL29UZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI Cooking Assistant/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We do not store your speech data. It is only used for the hands-free navigation feature.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We do not store your speech data. It is only used for the hands-free navigation feature.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0resleep.AI-Cooking-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		867569EC2AA8E16400ABDD76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P37BL29UZP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AI Cooking Assistant/Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We do not store your speech data. It is only used for the hands-free navigation feature.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We do not store your speech data. It is only used for the hands-free navigation feature.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m0resleep.AI-Cooking-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		867569D12AA8E16200ABDD76 /* Build configuration list for PBXProject "AI Cooking Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867569E82AA8E16400ABDD76 /* Debug */,
+				867569E92AA8E16400ABDD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867569EA2AA8E16400ABDD76 /* Build configuration list for PBXNativeTarget "AI Cooking Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867569EB2AA8E16400ABDD76 /* Debug */,
+				867569EC2AA8E16400ABDD76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86235B072AAA110B00810A89 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86235B082AAA110B00810A89 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86235B072AAA110B00810A89 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		7EAC01242AAF688400C50908 /* CoreDataStore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7EAC01252AAF688400C50908 /* CoreDataStore.xcdatamodel */,
+			);
+			currentVersion = 7EAC01252AAF688400C50908 /* CoreDataStore.xcdatamodel */;
+			path = CoreDataStore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 867569CE2AA8E16200ABDD76 /* Project object */;
+}

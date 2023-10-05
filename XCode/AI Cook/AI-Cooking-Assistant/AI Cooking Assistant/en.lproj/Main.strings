@@ -1,0 +1,108 @@
+
+/* Class = "UILabel"; text = "What do you want to cook?"; ObjectID = "1uA-TK-YXO"; */
+"1uA-TK-YXO.text" = "What do you want to cook?";
+
+/* Class = "UIButton"; configuration.title = "New Recipe"; ObjectID = "2Px-WF-at4"; */
+"2Px-WF-at4.configuration.title" = "New Recipe";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2Px-WF-at4"; */
+"2Px-WF-at4.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "3sl-wE-pLw"; */
+"3sl-wE-pLw.text" = "Title";
+
+/* Class = "UILabel"; text = "Are there any ingredients you don't want to use?"; ObjectID = "9db-JO-Alb"; */
+"9db-JO-Alb.text" = "Are there any ingredients you don't want to use?";
+
+/* Class = "UILabel"; text = "Customize Your Recipe"; ObjectID = "BDh-we-OTA"; */
+"BDh-we-OTA.text" = "Customize Your Recipe";
+
+/* Class = "UILabel"; text = "Make sure you have everything before you start!"; ObjectID = "FPO-iv-YYI"; */
+"FPO-iv-YYI.text" = "Make sure you have everything before you start!";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "FiH-21-F2A"; */
+"FiH-21-F2A.text" = "Settings";
+
+/* Class = "UILabel"; text = "Voice Control"; ObjectID = "Gyk-Rv-fhF"; */
+"Gyk-Rv-fhF.text" = "Voice Control";
+
+/* Class = "UILabel"; text = "Read Steps Out Loud"; ObjectID = "IEM-gb-j9V"; */
+"IEM-gb-j9V.text" = "Read Steps Out Loud";
+
+/* Class = "UIButton"; configuration.title = "Settings"; ObjectID = "Kp8-ZN-4UN"; */
+"Kp8-ZN-4UN.configuration.title" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Kp8-ZN-4UN"; */
+"Kp8-ZN-4UN.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Cookbook"; ObjectID = "Mt9-Mt-xsD"; */
+"Mt9-Mt-xsD.configuration.title" = "Cookbook";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Mt9-Mt-xsD"; */
+"Mt9-Mt-xsD.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "< Previous"; ObjectID = "NfE-Fi-qmx"; */
+"NfE-Fi-qmx.configuration.title" = "< Previous";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NfE-Fi-qmx"; */
+"NfE-Fi-qmx.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Settings"; ObjectID = "PR5-ul-Lh0"; */
+"PR5-ul-Lh0.configuration.title" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PR5-ul-Lh0"; */
+"PR5-ul-Lh0.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Step #:"; ObjectID = "Rf0-7c-VuT"; */
+"Rf0-7c-VuT.text" = "Step #:";
+
+/* Class = "UIButton"; configuration.title = "Cook!"; ObjectID = "Szu-hp-tzv"; */
+"Szu-hp-tzv.configuration.title" = "Cook!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Szu-hp-tzv"; */
+"Szu-hp-tzv.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Keep Changes"; ObjectID = "VmC-Tv-klq"; */
+"VmC-Tv-klq.text" = "Keep Changes";
+
+/* Class = "UILabel"; text = "Voice Speed"; ObjectID = "Y3n-w5-pge"; */
+"Y3n-w5-pge.text" = "Voice Speed";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ZET-4i-15h"; */
+"ZET-4i-15h.text" = "Title";
+
+/* Class = "UILabel"; text = "Ingredient Item"; ObjectID = "ajS-m9-S78"; */
+"ajS-m9-S78.text" = "Ingredient Item";
+
+/* Class = "UIButton"; configuration.title = "Start!"; ObjectID = "dOd-Mp-Wtm"; */
+"dOd-Mp-Wtm.configuration.title" = "Start!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "dOd-Mp-Wtm"; */
+"dOd-Mp-Wtm.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Instructions for step #"; ObjectID = "dci-4x-lU4"; */
+"dci-4x-lU4.text" = "Instructions for step #";
+
+/* Class = "UILabel"; text = "Recipe Name -- Ingredient List"; ObjectID = "kZX-ee-Q74"; */
+"kZX-ee-Q74.text" = "Recipe Name -- Ingredient List";
+
+/* Class = "UIBarButtonItem"; title = "Customize"; ObjectID = "nl0-Sg-khj"; */
+"nl0-Sg-khj.title" = "Customize";
+
+/* Class = "UILabel"; text = "Hold tight! We're generating your recipe...."; ObjectID = "ogV-qa-buZ"; */
+"ogV-qa-buZ.text" = "Hold tight! We're generating your recipe....";
+
+/* Class = "UIButton"; configuration.title = "Next >"; ObjectID = "rsX-qP-Aov"; */
+"rsX-qP-Aov.configuration.title" = "Next >";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rsX-qP-Aov"; */
+"rsX-qP-Aov.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "How many people are you cooking for?"; ObjectID = "wZE-cs-2ND"; */
+"wZE-cs-2ND.text" = "How many people are you cooking for?";
+
+/* Class = "UILabel"; text = "Create Your Recipe"; ObjectID = "xBz-K6-TPo"; */
+"xBz-K6-TPo.text" = "Create Your Recipe";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "yMu-DB-dMS"; */
+"yMu-DB-dMS.text" = "Detail";

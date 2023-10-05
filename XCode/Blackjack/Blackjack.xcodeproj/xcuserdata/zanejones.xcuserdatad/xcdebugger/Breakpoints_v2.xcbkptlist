@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FAECE2E7-AF65-45E4-9957-FCC96011921D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "426EDA34-254A-4524-8364-8FA06D754BBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "426EDA34-254A-4524-8364-8FA06D754BBB - 200fcc50d970a25b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "426EDA34-254A-4524-8364-8FA06D754BBB - 200fcc50d970a215"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "2292">
+               </Location>
+               <Location
+                  uuid = "426EDA34-254A-4524-8364-8FA06D754BBB - 2f4be0e42e4eaee0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCF035C4-7455-44BA-BB84-1148E3FFA73E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCF035C4-7455-44BA-BB84-1148E3FFA73E - 96119752a61634bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+               <Location
+                  uuid = "FCF035C4-7455-44BA-BB84-1148E3FFA73E - ec44d0af8e82956c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F158094-8948-4C57-BB93-0BBF60550053"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F158094-8948-4C57-BB93-0BBF60550053 - 96119752a616351a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1276">
+               </Location>
+               <Location
+                  uuid = "2F158094-8948-4C57-BB93-0BBF60550053 - 96119752a616351a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "2884">
+               </Location>
+               <Location
+                  uuid = "2F158094-8948-4C57-BB93-0BBF60550053 - ec44d0af8e8294c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1396">
+               </Location>
+               <Location
+                  uuid = "2F158094-8948-4C57-BB93-0BBF60550053 - ec44d0af8e8294c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "3076">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8164A5B0-7FDB-4D6B-B37F-C1FEC235BB6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8164A5B0-7FDB-4D6B-B37F-C1FEC235BB6F - 200fcc50d970aef9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1464">
+               </Location>
+               <Location
+                  uuid = "8164A5B0-7FDB-4D6B-B37F-C1FEC235BB6F - 2f4be0e42e4ea263"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1504">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FD27069-2F6D-40D4-B0CB-D7ABC571E22E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5FD27069-2F6D-40D4-B0CB-D7ABC571E22E - 200fcc50d970af3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1860">
+               </Location>
+               <Location
+                  uuid = "5FD27069-2F6D-40D4-B0CB-D7ABC571E22E - 2f4be0e42e4ea3a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1520">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3810D8E2-92A3-4C9A-8A4F-3BE8F7B8505E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3810D8E2-92A3-4C9A-8A4F-3BE8F7B8505E - 96119752a61635e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2512">
+               </Location>
+               <Location
+                  uuid = "3810D8E2-92A3-4C9A-8A4F-3BE8F7B8505E - ec44d0af8e829436"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC4E26AD-77F0-4822-AAD7-BF0BB5E82643"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DC4E26AD-77F0-4822-AAD7-BF0BB5E82643 - 96119752a61635e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2512">
+               </Location>
+               <Location
+                  uuid = "DC4E26AD-77F0-4822-AAD7-BF0BB5E82643 - ec44d0af8e829436"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DFC6AB0-1141-4E9E-A74A-88E34B30612D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DFC6AB0-1141-4E9E-A74A-88E34B30612D - 96119752a6163661"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1748">
+               </Location>
+               <Location
+                  uuid = "9DFC6AB0-1141-4E9E-A74A-88E34B30612D - ec44d0af8e8297b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1940">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B64C47F4-31F5-45B0-A5CC-DEBFF94C57D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B64C47F4-31F5-45B0-A5CC-DEBFF94C57D1 - 96119752a6163412"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "828">
+               </Location>
+               <Location
+                  uuid = "B64C47F4-31F5-45B0-A5CC-DEBFF94C57D1 - ec44d0af8e8295c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "860">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCEAAD17-C188-4DE5-8D59-7AAB61F16AB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Blackjack/DeckOfCardsController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getShuffledDeck(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CCEAAD17-C188-4DE5-8D59-7AAB61F16AB9 - 96119752a6163b49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck() -&gt; Swift.Optional&lt;Blackjack.Deck&gt;"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "CCEAAD17-C188-4DE5-8D59-7AAB61F16AB9 - ec44d0af8e829a9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Blackjack.DeckOfCardsController.getShuffledDeck(completion: (Swift.Optional&lt;Blackjack.Deck&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Blackjack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zanejones/Desktop/XCode/Projects/Blackjack/Blackjack/DeckOfCardsController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "496">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "flat,750x1000,075,f.u3.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
