@@ -6,4 +6,4 @@ First off, this app is far from finished. But it is completely functional in thi
 
 I mostly worked on the base functionality of the app. To put it simply, I made the buttons do the things. I made the speech synthesizer, voice recognizer, and their respective settings, handling a lot of bugs when it came to such. I also helped out in the UI where I could. 
 
-For security reasons, the API key in this version has been changed and removed. 
+For security reasons, the API key in this version has been changed and removed. Pressing Cook generates a premade recipe.
